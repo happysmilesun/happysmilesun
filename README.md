@@ -1,52 +1,110 @@
+# 안녕하세요, 채희선입니다 👋
 
+**서비스 중인 코드와 정책 위에서, 분석·설계부터 운영·인수인계까지 책임지는 풀스택 웹 개발자**입니다.
+트랜잭션 경계·데이터 정합성·조회 성능처럼 "보이지 않는 곳에서 서비스를 지키는 일"을 좋아하고,
+AI를 업무 시스템에 안전하게 얹는 구조(권한 격리·결과 검증·비용 통제)에 관심이 많습니다.
 
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA%20·%20Querydsl-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat-square)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js%202%2F3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP%20·%20GKE-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
-### **[ Experience ]**
+---
 
-- 삼성 SDS 동계 대학생 알고리즘 특강 수료 (2021년 1월 11일 ~ 1월 22일)
-- 자대 공학교육 혁신센터 “2021년 파이썬을 활용한 AI 딥러닝"심화과정 수료 (2022년 1월 14일~ 1월 28일)
-- 자대 이미지연구실 학부연구생 (2022년 1월~2월)
-- 대학교 연합동아리 UMC 2기 자대 지부 Spring Boot B팀 리더 (2022년 3월 ~ 8월 )
-- 대학교 연합동아리 UMC 3기 자대 지부 Spring Boot 파트장 (2022년 9월 ~ 12월 )
-- LG CNS 아키텍처 담당에서 실시한 ‘IT 아키텍처 전문가 양성 특강' 수료 (2022 10월 31일~ 11월 3일)
-- KB 국민은행 IT 플랫폼 개발 인턴 ( Full-Stack 개발 ) (2023년 7월 24일 - 10월 13일)
-- KB 데이타 시스템 어플리케이션 개발 인턴 ( Back-End 개발 ) (2023년 12월 27일 - 2024년 2월 13일)
-- 다우기술 웹어플리케이션 개발 ( Full-Stack 개발 ) (2024년 2월 13일 ~ )
+## 📌 한눈에 보기
 
-### [Skills]
+| | |
+|---|---|
+| **직장** | 다우기술 웹 애플리케이션 개발(풀스택) 사원 · 2024.02 ~ 현재 (2년 9개월, 정규직) |
+| **프로젝트** | 신규 프로젝트 3건을 분석·설계 → 개발 → 운영 → 인수인계까지 수행<br>차세대 그룹웨어 백오피스/고객포탈 → 임직원 복지몰 애드웰 → 모바일 쿠폰 서비스 애드콘 |
+| **인턴** | 금융권 2회 — KB국민은행 개발 인턴, KBDS 어플리케이션 운영팀 인턴 |
+| **AI** | 그룹 AI경진대회 출품작 **DO-AUI**(LLM tool use 오케스트레이터) 아이디어 제안·설계·프로토타입<br>AI 이중 보안 점검 체계 · PR AI 리뷰 자동화 도입<br>AI 에이전트 역할 분담 운용으로 조회 성능 **약 16배** 개선 |
+| **자격** | 정보처리기사, SQLD |
 
-### Programming Language
+---
 
-- JAVA
-- Python3
-- C
-- Go
+## 💼 Work — 다우기술 (2024.02 ~ 현재)
 
-### Back-end
+### 차세대 백오피스 / 고객포탈 `2024.02 ~ 2025.07`
+그룹웨어 다우오피스 3.0 → 4.0 전면 개편에 따른 백오피스·고객포탈 신규 구축 (100명+ 참여, 약 2만 고객사 대상)
+- 상품·할인 관리 전담, 백오피스 전 영역 도메인 분석(도메인 경계 10개+·Aggregate)·ERD·아키텍처 설계
+- **메일/SMS 통합 알림 재설계 + 42종 개발** — AFTER_COMMIT 이벤트 + @Async 독립 파이프라인, 롤백 건 알림 0건
+- **컨텐츠(광고) 서버 분리** — 전수 매칭 스케줄러 제거, RabbitMQ 프로비저닝으로 반영 최대 10분 → 즉시
+- 야간 자동 카드 결제 배치 트랜잭션 경계 정리, nginx 프록시 구간 chunked 불일치로 인한 5xx 원인 규명
 
-- Spring Boot, Spring MVC, Spring Data JPA
-- JPA, Querydsl, JDBC Template
-- Gradle, Maven
-- IntelliJ, DataGrip, Visual Studio Code, Vim
-- Git
+`Spring Boot` `JPA` `Querydsl` `RabbitMQ` `Spring AOP` `Spring Cloud Gateway` `GCS` `GKE` `Vue.js`
 
+### 임직원 복지몰 애드웰 `2025.07 ~ 2026.07`
+HR 담당자가 복지성 선물을 알림톡으로 대량 발송하는 B2B 복지몰 신사업
+- 주문 V2 정책(즉시/예약/기념일 발송, 주문 타입별 금액 계산·충전금/PG 분배·환급 산식) 구현
+- **전시·마케팅 공통 엔진** — ContentType 기반 엔진 + 타입별 Validator, 새 전시 기능은 타입 정의만으로 추가
+- 넥스트키 락 범위를 인덱스 컬럼 순서로 한정, 데드락 재시도 AOP
+- Redis **시간대별 키 캐시**로 전시 시작·종료 배치 0개
 
-### Front-end
+`Spring Boot` `MyBatis` `MariaDB` `Redis` `Vue 3` `Pinia` `CoreUI`
 
-- HTML5, CSS3, JavaScript
-- Android
+### 애드콘 배송 실물상품 도입 · 반응형 전환 `2026.08 ~ 현재`
+모바일 쿠폰·상품권 B2C/B2B 서비스에 배송 상품 도입, PC/모바일 화면 반응형 전환
+- 기존 ERD(107개 테이블·1,042개 컬럼) 분석 후 재설계, 레거시 Controller의 REST API 전환 설계·팀 가이드
+- 전시·메인·상품목록·검색·주문내역·어드민 주문관리 전반 개발, 수신자별 안분 기준 환급 계산
+- **조회 성능 개선** — 첫 조회 3.2초 → 0.2초(약 16배), 쿼리 297ms → 66ms
 
-### DevOps
+`JSP` `jQuery` `Spring Boot` `MyBatis` `MariaDB` `REST API`
 
-- AWS EC2, RDS, S3, Route 53
-- Mysql, MariaDB
+👉 **[상세 수행 내역 보기 (문제 → 해결 → 효과)](docs/work.md)**
 
-### Collaboration
+---
 
-- Git
-- Notion
-- Trello
-- Micro Teams
-- Slack
-- Discord
+## 🤖 AI
 
+| 프로젝트 | 내용 |
+|---|---|
+| **DO-AUI** | 그룹웨어 AI 커스텀 대시보드 PoC (다우키움그룹 AI경진대회 출품). 채팅 요청 → Claude tool use(ReAct)로 API 카드 지목 → 서버가 대신 실행 → 선언형 UI(A2UI) 설계도 검증·저장 → 재조회 시 AI 호출 0회. 사내 API 카드 175장 + 외부 커넥터 3종, 설계도 검증 규칙 144개 |
+| **AI 보안 점검 · PR 리뷰** | 소스 분석 + 화면 유즈케이스 이중 보안 점검 체계 설계, 체크리스트·프롬프트 표준화로 타 서비스 확산, PR AI 리뷰 자동화 도입 |
+| **AI 에이전트 역할 분담** | 외부망/내부망/하위 모델 에이전트 역할 분담 + 지시서 형식 설계로 조회 지연 원인 규명 → 첫 조회 약 16배, 동시 호출 약 25배 개선 |
+| **연수** | Build with Gemini Seoul 2026 (Google Cloud) 핸즈온 참석 및 결과보고 |
+
+👉 **[AI 경험 상세 보기](docs/ai.md)**
+
+---
+
+## 🛠 Skills
+
+| 수준 | 기술 |
+|---|---|
+| **실무 주력**<br><sub>분석·설계·구현·운영·장애 대응</sub> | Java, Spring Boot, Spring MVC · JPA, Querydsl · MyBatis · MariaDB · REST API(FeignClient, HttpExchange, RestClient, Spring Cloud Gateway) · Vue.js 2/3, Pinia, CoreUI, JSP, jQuery |
+| **실무 활용**<br><sub>설계 참여·기능 단위 구현</sub> | RabbitMQ · Redis · GCP(GKE, GCS) · LLM 애플리케이션(Claude API tool use, JSON Schema, SSE, A2UI) · AI 에이전트 운용 |
+| **경험**<br><sub>학부·인턴</sub> | Python(크롤링, Mecab NLP), C, Android, Go, React, NEXCORE |
+| **협업** | Git, Bitbucket, Redmine, Jira, Figma, Notion, Slack |
+
+👉 **[보유 기술 수준 상세 보기](docs/skills.md)**
+
+---
+
+## 📜 Experience
+
+| 기간 | 내용 |
+|---|---|
+| 2024.02.13 ~ | **다우기술** 웹어플리케이션 개발 (Full-Stack) |
+| 2023.12.27 ~ 2024.02.13 | **KB데이타시스템** 어플리케이션 개발 인턴 (Back-End) |
+| 2023.07.24 ~ 2023.10.13 | **KB국민은행** IT 플랫폼 개발 인턴 (Full-Stack) |
+| 2022.10.31 ~ 2022.11.03 | LG CNS 아키텍처 담당 'IT 아키텍처 전문가 양성 특강' 수료 |
+| 2022.09 ~ 2022.12 | 대학교 연합동아리 UMC 3기 자대 지부 Spring Boot 파트장 |
+| 2022.03 ~ 2022.08 | 대학교 연합동아리 UMC 2기 자대 지부 Spring Boot B팀 리더 |
+| 2022.01 ~ 2022.02 | 자대 이미지연구실 학부연구생 |
+| 2022.01.14 ~ 2022.01.28 | 자대 공학교육 혁신센터 "2021년 파이썬을 활용한 AI 딥러닝" 심화과정 수료 |
+| 2021.01.11 ~ 2021.01.22 | 삼성 SDS 동계 대학생 알고리즘 특강 수료 |
+
+👉 **[인턴 · 대외활동 · 학부 프로젝트 상세 보기](docs/activities.md)**
+
+---
+
+## 🏅 Certificates
+- 정보처리기사
+- SQLD
