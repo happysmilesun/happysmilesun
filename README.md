@@ -26,9 +26,9 @@
 | | |
 |---|---|
 | **직장** | 다우기술 웹 애플리케이션 개발(풀스택) 사원 · 2024.02 ~ 현재 (2년 9개월, 정규직) |
-| **프로젝트** | 신규 프로젝트 3건을 분석·설계 → 개발 → 운영 → 인수인계까지 수행<br>차세대 그룹웨어 백오피스/고객포탈 → 임직원 복지몰 애드웰 → 모바일 쿠폰 서비스 애드콘 |
+| **프로젝트** | 신규 프로젝트 3건을 분석·설계 → 개발 → 운영 → 인수인계까지 수행<br>차세대 그룹웨어 백오피스/고객포탈 → 임직원 복지몰 애드웰 → 모바일 쿠폰 서비스 애드콘<br>애드콘 주문내역 조회 성능 **약 16배** 개선 (첫 조회 3.2초 → 0.2초) |
 | **인턴** | 금융권 2회 — KB국민은행 개발 인턴, KBDS 어플리케이션 운영팀 인턴 |
-| **AI** | 동기들과 진행한 AI 사이드 프로젝트 **DO-AUI**(LLM tool use 오케스트레이터) 아이디어 제안·설계·프로토타입<br>AI 이중 보안 점검 체계 · PR AI 리뷰 자동화 도입<br>AI 에이전트 역할 분담 운용으로 조회 성능 **약 16배** 개선 |
+| **AI** | 동기들과 진행한 AI 사이드 프로젝트 **DO-AUI**(LLM tool use 오케스트레이터) 아이디어 제안·설계·프로토타입<br>AI 이중 보안 점검 체계 · PR AI 리뷰 자동화 도입 |
 | **자격** | 정보처리기사, SQLD |
 
 ---
@@ -57,7 +57,7 @@ HR 담당자가 복지성 선물을 알림톡으로 대량 발송하는 B2B 복�
 모바일 쿠폰·상품권 B2C/B2B 서비스에 배송 상품 도입, PC/모바일 화면 반응형 전환
 - 기존 ERD(107개 테이블·1,042개 컬럼) 분석 후 재설계, 레거시 Controller의 REST API 전환 설계·팀 가이드
 - 전시·메인·상품목록·검색·주문내역·어드민 주문관리 전반 개발, 수신자별 안분 기준 환급 계산
-- **조회 성능 개선** — 첫 조회 3.2초 → 0.2초(약 16배), 쿼리 297ms → 66ms
+- **조회 성능 개선** — 주문내역 첫 조회 3.2초 → 0.2초(약 16배), 검색바 추천 쿼리 297ms → 66ms
 
 `JSP` `jQuery` `Spring Boot` `MyBatis` `MariaDB` `REST API`
 
@@ -71,7 +71,6 @@ HR 담당자가 복지성 선물을 알림톡으로 대량 발송하는 B2B 복�
 |---|---|
 | **DO-AUI** | 그룹웨어 AI 커스텀 대시보드 PoC (동기들과 진행한 AI 사이드 프로젝트). 채팅 요청 → Claude tool use(ReAct)로 API 카드 지목 → 서버가 대신 실행 → 선언형 UI(A2UI) 설계도 검증·저장 → 재조회 시 AI 호출 0회. 사내 API 카드 175장 + 외부 커넥터 3종, 설계도 검증 규칙 144개 |
 | **AI 보안 점검 · PR 리뷰** | 소스 분석 + 화면 유즈케이스 이중 보안 점검 체계 설계, 체크리스트·프롬프트 표준화로 타 서비스 확산, PR AI 리뷰 자동화 도입 |
-| **AI 에이전트 역할 분담** | 외부망/내부망/하위 모델 에이전트 역할 분담 + 지시서 형식 설계로 조회 지연 원인 규명 → 첫 조회 약 16배, 동시 호출 약 25배 개선 |
 | **연수** | Build with Gemini Seoul 2026 (Google Cloud) 핸즈온 참석 및 결과보고 |
 
 👉 **[AI 경험 상세 보기](docs/ai.md)**
@@ -83,7 +82,7 @@ HR 담당자가 복지성 선물을 알림톡으로 대량 발송하는 B2B 복�
 | 수준 | 기술 |
 |---|---|
 | **실무 주력**<br><sub>분석·설계·구현·운영·장애 대응</sub> | Java, Spring Boot, Spring MVC · JPA, Querydsl · MyBatis · MariaDB · REST API(FeignClient, HttpExchange, RestClient, Spring Cloud Gateway) · Vue.js 2/3, Pinia, CoreUI, JSP, jQuery |
-| **실무 활용**<br><sub>설계 참여·기능 단위 구현</sub> | RabbitMQ · Redis · GCP(GKE, GCS) · LLM 애플리케이션(Claude API tool use, JSON Schema, SSE, A2UI) · AI 에이전트 운용 |
+| **실무 활용**<br><sub>설계 참여·기능 단위 구현</sub> | RabbitMQ · Redis · GCP(GKE, GCS) · LLM 애플리케이션(Claude API tool use, JSON Schema, SSE, A2UI) |
 | **경험**<br><sub>학부·인턴</sub> | Python(크롤링, Mecab NLP), C, Android, Go, React, NEXCORE |
 | **협업** | Git, Bitbucket, Redmine, Jira, Figma, Notion, Slack |
 

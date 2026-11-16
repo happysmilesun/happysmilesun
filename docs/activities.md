@@ -21,7 +21,7 @@
 ---
 
 ## 연수 · 교육 · 대외활동
-- **Build with Gemini Seoul 2026** 세미나 (Google Cloud) → [AI 경험 6](ai.md#6-연수--build-with-gemini-seoul-2026)
+- **Build with Gemini Seoul 2026** 세미나 (Google Cloud) → [AI 경험 4](ai.md#4-연수--build-with-gemini-seoul-2026)
 - **대학 연합 개발 동아리 UMC** — 2기 서버 스터디 리더(2022.03~08), 3기 서버 파트장(2022.09~12) · 프로젝트 진행 방법 가이드·서버 워크북 제작 TF 참여
 - **학부연구생** — 이미지 연구실 (2022.01~02)
 - **사내** — 팀 동기 JPA·Hibernate 스터디 후 팀 공유, 전사 동기 월 1회 기술 세미나
@@ -37,7 +37,7 @@
 | **Swith** 🏆 | 신뢰할 수 있는 스터디원 모집 앱 (연합동아리 프로젝트, **데모데이 최우수상**) | 서버 개발·스크럼 마스터 | Spring Boot, Android |
 | **학교 이벤트 관리 플랫폼** (캡스톤) | 비정기 이벤트 개설·빠른 길찾기 안내, 소식 공유 | 기획·서버 개발 | Spring Boot, Android |
 | **savePenguin** (해커톤) | 텀블러 사용 시 포인트를 적립하는 앱 | 기획·Android 개발 | Spring Boot, Android |
-| **한국어 뉴스 키워드·요약 서비스** | → [AI 경험 7](ai.md#7-학부--한국어-뉴스-키워드요약-서비스) | 기획·알고리즘 개발 | Python, Mecab |
+| **한국어 뉴스 키워드·요약 서비스** | → [AI 경험 5](ai.md#5-학부--한국어-뉴스-키워드요약-서비스) | 기획·알고리즘 개발 | Python, Mecab |
 
 ---
 

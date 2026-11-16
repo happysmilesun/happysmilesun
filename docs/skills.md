@@ -38,7 +38,7 @@
 | **Redis** | 시간대별 키 캐시, TTL·evict 정책 설계 |
 | **GCP** | GKE(Kubernetes) 배포 환경에서의 개발·장애 분석(ingress → gateway → 서비스 요청 경로), GCS(임시/퍼블릭 버킷 이동, 보상 트랜잭션) |
 | **LLM 애플리케이션** | Claude API tool use(ReAct 루프), JSON Schema 검증, SSE 스트리밍, A2UI(선언형 UI 프로토콜) — PoC 설계·프로토타입 구현 |
-| **AI 에이전트 운용** | 역할별 지시서 설계, AI PR 리뷰, AI 보안 점검 프롬프트 표준화 |
+| **AI 활용** | AI PR 리뷰, AI 보안 점검 프롬프트 표준화 |
 | **네트워크** | nginx 프록시 구간의 HTTP chunked/Content-Length 불일치로 인한 5xx 원인 규명 |
 
 ---
