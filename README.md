@@ -6,7 +6,7 @@
 이미 운영 중인 서비스에 기능을 붙이는 일이 많아서, 기존 정책을 깨지 않으면서 구조를 바꾸는 데 신경을 많이 씁니다.
 느린 화면이나 이상한 에러가 생기면 원인을 끝까지 찾아보는 편이고, 고친 뒤에는 결과가 전과 같은지 꼭 확인합니다.
 
-요즘은 AI를 실제 업무에 어떻게 붙일 수 있을지에 관심이 많아서, 동기들과 AI 사이드 프로젝트를 하고, 업무에는 AI 코드 리뷰·보안 점검 도입을 해보고 있습니다.
+요즘은 AI를 실제 업무에 어떻게 붙일 수 있을지 관심이 많아서, 동기들과 AI 사이드 프로젝트를 하고 있고 업무에서도 AI 코드 리뷰·보안 점검을 도입해 쓰고 있습니다.
 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
